@@ -10,9 +10,16 @@ The Application Suite
 
 1) Check In Application
 
-	- The purpose behind this application is to 
+	- The purpose behind this application is to enable the customers to login their information according to the system that is already in place. Such that it is simple and easy to use. I believe using jSwing as the GUI for this application should suffice. 
+ 
 2) Access Key Application
 
+	- The purose behind this application is to enable the client to update the security codes given to each customer by grouping 16 seperate four didgit codes to the given customer group. 
+	- To enable this application integration with MySQL is a must. 
+
 3) Management Application
+
+	- The purose behind this application is to enable the client to manage all the security codes given to the customers. To view and edit the customers on a constant basis as well as give a log of the customers as they use the login application. 
+
 
 

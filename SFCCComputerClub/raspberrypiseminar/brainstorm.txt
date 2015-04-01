@@ -1,0 +1,17 @@
+Creating this presentation for the Raspberry Pi and Raspberry Pi 2. To be able to complete this presentation I would need the following:
+
+1) A Central Theme
+2) A Raspberry Pi or Raspberry Pi 2
+3) A machine running the latest Windows 8.1
+4) A Projector for the Presentation itself
+
+Central Theme: 
+
+	Ideas: 	
+
+	Linux for Everyone
+	Transferring your Workload from Windows to Linux
+
+	Chosen Theme: Transferring your Workload from Windows to Linux
+
+	As this will be my main theme, I believe that I can demonstrate how 	   one can transfer their entire workload from Windows 8.1 to Raspien.	      Should I also include the steps required to install Raspien on the 	 Raspberry Pi itself? 
