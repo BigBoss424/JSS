@@ -1,0 +1,18 @@
+Creating an application suite for a client at Twisted Hair Salon
+
+Things that are required to complete the suite:
+
+1) Create a Database on otacon424 using MySQL for the user information
+2) Create a Database for the data that the user will be inputting using MySQL. 
+3) Might need to purchase another server using DigitalOcean as a medium for this project. 
+
+The Application Suite
+
+1) Check In Application
+
+	- The purpose behind this application is to 
+2) Access Key Application
+
+3) Management Application
+
+
