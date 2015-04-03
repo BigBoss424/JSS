@@ -61,14 +61,14 @@ public class Customer
 	{ return Date; }
 	public void setDate(int Date)
 	{ this.date = Date; }
-	public int timeIn(int timeIn)
-	{ return timeIn; }
-	public void timeIn(int timeIn)
-	{ this.timeIn = tineIn; }
-	public int timeOut(int timeOut)
-	{ return timeOut; }
-	public void timeOut(int timeOut)
-	{ this.timeOut = timeOut; }
+	public int getTimeIn(int TimeIn)
+	{ return TimeIn; }
+	public void setTimeIn(int TimeIn)
+	{ this.timeIn = TimeIn; }
+	public int getTimeOut(int TimeOut)
+	{ return TimeOut; }
+	public void setTimeOut(int TimeOut)
+	{ this.timeOut = TimeOut; }
 	public char getRoomUsed(char RoomUsed)
 	{ return RoomUsed; }
 	public void setRoomUsed(char RoomUsed)
@@ -92,11 +92,11 @@ public class Customer
 	public char getCleanUpYourself(char CleanUpYourself)
 	{ return CleanUpYourself; }
 	public void setCleanUpYourself(char CleanUpYourself)
-	{ this.CleanUpYourself; }
+	{ this.cleanUpYourself = CleanUpYourself; }
 	public char getDidGuest(char DidGuest)
 	{ return DidGuest; }
 	public void setDidGuest(char DidGuest)
-	{ this.didGuest = Guest; }
+	{ this.didGuest = DidGuest; }
 	public char getDidGuestTan(char DidGuestTan)
 	{ return DidGuestTan; }
 	public void setDidGuestTan(char DidGuestTan)

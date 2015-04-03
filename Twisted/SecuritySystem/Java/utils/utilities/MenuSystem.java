@@ -57,6 +57,8 @@ public class MenuSystem implements MenuSystemInterface
 	{
 		System.out.println("Please choose from the following options: ");
 		System.out.println("1) List of Customer Objects");
-		System.out.println("2) List of ")
+		System.out.println("2) List of Check Form Objects");
+		System.out.println("3) Quit");
+		//Will add more options as time goes on for simple debugging purposes. 
 	}
 }
