@@ -14,7 +14,7 @@ public class Person
 	{
 		this.fName = "John";
 		this.lName = "Doe";
-		this.UID = "0";
+		this.UID = 0;
 	}
 
 	public Person(String fName, String lName, int userID) //Declare EVC
@@ -34,15 +34,16 @@ public class Person
 	public void setLastName(String lName)
 	{ this.lName = lName;}
 	public int getUserID(int userID)
-	{ return userID }
+	{ return userID; }
 	public void setUserID(int userID)
 	{ this.UID = userID; }
 
 	//Declaring toString Method
 	public String toString()
 	{
-		return = "First Name: " + fName + "\n" +
-			 "Last Name: "  + lName + "\n" +
-			 "User ID: "    + UID;
+		return "First Name: " + fName + "\n" +
+			   "Last Name: "  + lName + "\n" +
+			   "User ID: "    + UID;
 	}
+}//end class
 
