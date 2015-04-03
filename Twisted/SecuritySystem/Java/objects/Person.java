@@ -1,40 +1,48 @@
 /* Created by: Aaron Jones
-*  Date: 4/1/2015
-*  Description: This class is to be the person class for the application suit*  e that I am creating. 
+*  Date: 4/2/2015
+*  Description: This will be the parent class for the entire program suite.*  I will include more details down below i nthe commit/comment section of *  the code.
+*
 */
 
 public class Person
 {
-	//Declare global variables up here
-	private String name;
+	//Declaring Global Variables
+	private String fName,lName;
+	private int UID;
 
-	public Person()
+	public Person() //Declaring DVC
 	{
-	   this.name = "Default Name";
+		this.fName = "John";
+		this.lName = "Doe";
+		this.UID = "0";
 	}
 
-	public Person(String name)
+	public Person(String fName, String lName, int userID) //Declare EVC
 	{
-	   this.name = name;
-	}
-	//Declared the EVC and DVC
-
-	public String getName(String name)
-	{
-	  return name;
+		this.fName = fName;
+		this.lName = lName;
+		this.UID = userID;
 	}
 
-	public void setName(String name)
-	{
-	  this.name = name;
-	}
+	//Declaring getters and setters
+	public String getFirstName(String fName)
+	{ return fName; }
+	public void setFirstName(String fName)
+	{ this.fName = fName;}
+	public String getLastName(String lName)
+	{ return lName;}
+	public void setLastName(String lName)
+	{ this.lName = lName;}
+	public int getUserID(int userID)
+	{ return userID }
+	public void setUserID(int userID)
+	{ this.UID = userID; }
 
+	//Declaring toString Method
 	public String toString()
 	{
-	  return "Name: " + this.name;
+		return = "First Name: " + fName + "\n" +
+			 "Last Name: "  + lName + "\n" +
+			 "User ID: "    + UID;
 	}
 
-	
-
-
-}
