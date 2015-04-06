@@ -1,5 +1,6 @@
 /* Created by: Aaron Jones
 *  Date: 4/1/2015
+*  Last Modified: 4/5/2015
 *  Description: This class is simply to be created for the purpose of creatin*g a new object called Customer. I will be working on creating the details fo*r the following class as I go along. There will be comments.
 */
 
@@ -17,7 +18,7 @@ public class Customer
 		     didGuest,
 		     didGuestTan;
 	private String guestName;
-	private int setsOfGoogles;
+	private int setsOfGoggles;
 
 	public Customer() //Declare DVC
 	{
@@ -33,13 +34,13 @@ public class Customer
 		this.didGuest = 'V';
 		this.didGuestTan = 'V';
 		this.guestName = "John Doe";
-		this.setsOfGoogles = 2;
+		this.setsOfGoggles = 2;
 	}
 	
 	public Customer(int date, int timeIn, int timeOut, char roomUsed,
 			char tanningDown, char returnDown, char restroomLock,			     char relockRestroom, char cleanUpYourself,
 			char didGuest, char didGuestTan, String guestName, 
-			int setsOfGoogles) //Declaring EVC
+			int setsOfGoggles) //Declaring EVC
 	{	
 		this.date = date;
 		this.timeIn = timeIn;
@@ -52,63 +53,67 @@ public class Customer
 		this.didGuest = didGuest;
 		this.didGuestTan = didGuestTan;
 		this.guestName = guestName;
-		this.setsOfGoogles = setsOfGoogles;
+		this.setsOfGoggles = setsOfGoggles;
 	} 
 
 	//Declaring getters and setters
 
-	public int getDate(int Date)
-	{ return Date; }
+	public int getDate()
+	{ return date; }
 	public void setDate(int Date)
 	{ this.date = Date; }
-	public int getTimeIn(int TimeIn)
-	{ return TimeIn; }
+	public int getTimeIn()
+	{ return timeIn; }
 	public void setTimeIn(int TimeIn)
 	{ this.timeIn = TimeIn; }
-	public int getTimeOut(int TimeOut)
-	{ return TimeOut; }
+	public int getTimeOut()
+	{ return timeOut; }
 	public void setTimeOut(int TimeOut)
 	{ this.timeOut = TimeOut; }
-	public char getRoomUsed(char RoomUsed)
-	{ return RoomUsed; }
+	public char getRoomUsed()
+	{ return roomUsed; }
 	public void setRoomUsed(char RoomUsed)
 	{ this.roomUsed = RoomUsed; }
-	public char getTanningDown(char TanningDown)
-	{ return TanningDown; }
+	public char getTanningDown()
+	{ return tanningDown; }
 	public void setTanningDown(char TanningDown)
 	{ this.tanningDown = TanningDown; }
-	public char getReturnDown(char ReturnDown)
-	{ return ReturnDown; }
+	public char getReturnDown()
+	{ return returnDown; }
 	public void setReturnDown(char ReturnDown)
 	{ this.returnDown = ReturnDown; }
-	public char getRestroomLock(char RestroomLock)
-	{ return RestroomLock; }
+	public char getRestroomLock()
+	{ return restroomLock; }
 	public void setRestroomLock(char RestroomLock)
 	{ this.restroomLock = RestroomLock; }
-	public char getRelockRestroom(char RelockRestroom)
-	{ return RelockRestroom; }
+	public char getRelockRestroom())
+	{ return relockRestroom; }
 	public void setRelockRestroom(char RelockRestroom)
 	{ this.relockRestroom = RelockRestroom; }
-	public char getCleanUpYourself(char CleanUpYourself)
-	{ return CleanUpYourself; }
+	public char getCleanUpYourself()
+	{ return cleanUpYourself; }
 	public void setCleanUpYourself(char CleanUpYourself)
 	{ this.cleanUpYourself = CleanUpYourself; }
-	public char getDidGuest(char DidGuest)
-	{ return DidGuest; }
+	public char getDidGuest()
+	{ return didGuest; }
 	public void setDidGuest(char DidGuest)
 	{ this.didGuest = DidGuest; }
-	public char getDidGuestTan(char DidGuestTan)
-	{ return DidGuestTan; }
+	public char getDidGuestTan()
+	{ return didGuestTan; }
 	public void setDidGuestTan(char DidGuestTan)
 	{ this.didGuestTan = DidGuestTan;}
-	public String getGuestName(String GuestName)
-	{ return GuestName; }
+	public String getGuestName()
+	{ return guestName; }
 	public void setGuestName(String GuestName)
 	{ this.guestName = GuestName; }
-	public int getSetsOfGoogles(int SetsOfGoogles)
-	{ return SetsOfGoogles; }
+	public int getSetsOfGoggles()
+	{ return setsOfGoogles; }
 	public void setSetOfGoogles(int SetsOfGoogles)
 	{ this.setsOfGoogles = SetsOfGoogles; }
 
 	//Declare toString Method
+	public String toString()
+	{
+		return "";
+	}
 }//end class 
