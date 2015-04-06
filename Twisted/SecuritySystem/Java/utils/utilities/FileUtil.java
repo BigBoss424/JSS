@@ -16,8 +16,86 @@
 *
 */
 
+import java.io.*;
+import java.util.*;
+
 public class FileUtil
 {
+      //Declare global variables
+      private String path;
+      private static Scanner fin = null;
+      private static PrintStream fout = null;
+      
+      private static boolean connectInput(String filename)
+      {
+          try
+          {
+            filename = "test.txt";
+            File file = new File(filename);
+            fin = new Scanner(file);
+            return true;
+          }
+          catch(FileNotFoundException e)
+          {
+            System.out.println("File was not found");
+            if(filename != "test.txt")
+            {
+              System.out.println("File name is invalid");
+              return false;
+            } 
+            else
+            {
+              System.out.println("Unknown error!");
+              return false;
+            }
+            
+          }
+      }// end connectInput
+      
+      private static void disconnectInput()
+      {
+          String filename = "test.txt";
+          connectInput(filename);
+          
+          fin.close();
+      }
+      
+      private static String nextItem()
+      {
+            String item = null;
+            
+            if(fin.hasNext())
+            {
+              item = fin.nextLine();
+            }
+            else
+              return null;
+            return item;
+      }
+      
+      private static void writeLine(String item)
+      {
+          while(fin.hasNextLine())
+          {
+            fout.println(item);
+          }
+          System.out.println(item);
+      }
+      
+      private static int readData(String [] values)
+      {
+          String s = nextItem();
+          int count = 0;
+          while( s != null)
+          {
+             values[count] = s;
+             count++;
+             s = nextItem();
+          }
+          
+            return count;
+      }
+      
 
 
 }//end class
