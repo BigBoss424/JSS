@@ -1,11 +1,127 @@
-<!doctype html>
+<!DOCTYPE html>
 
-<html>
-    <head>
-        <title>Aaron Jones | Programmer | Back-End Developer</title>
-    </head>
+<html lang="en">
 
-    <body>
-        <p>Here is to the Daredevils</p>
-    </body>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Online Responsive Resume Demo</title>
+	<meta name="author" content="Aaron Jones">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Simonetta:400,900|Balthazar">
+  	<link rel="stylesheet" type="text/css" href="css/styles.css">
+  	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+
+<body>
+    <div id="w" itemscope itemtype="http://schema.org/Person">
+        <header class="clearfix">
+            <div id="info">
+                <h1><span itemprop="name">Aaron Jones</span></h1>
+                <h3><span itemprop="jobTitle">Freelance Programmer & Backend Web developer</span></h3>
+                <small itemprop="address" itemscope itemType="http://schema.org/PostalAddress">
+                    <span itemprop="addressLocality">Spokane</span>,
+                    <span itemprop="addressRegion">Washington</span>,
+                    <span itemprop="addressCountry">USA</span>
+                </small>
+                <small><span itemprop="email">ajones061392@gmail.com</span></small>
+                <small><a href="https://github.com/bigboss424/" itemprop="url">My Portfolio</a> * <a href="https://twiiter.com/heeroyuy424" itemprop="url">@heeroyuy424</a></small>
+            </div>
+
+            <div id="photo">
+                <img src="imgs/resize_profilepic.jpg" alt="Aaron Jones' Portfolio Picture" itemprop="image"/>
+            </div>
+        </header>
+
+        <section id="profile">
+            <h2>My History &amp; Profile</h2>
+            <p itemprop="description">
+                I'm a 22 year old web designer and developer working out of Spokane.                 I have been programming since my sophomore year of high schoo in my                   first web design class. Now I am currently working as a freelance IT                 professional in my field. I am currently working on completing my AA                 Transfer Degree at Spokane Falls Community College and then going                     back to Eastern Washington University to complete my BS in Computer                   Science.   
+            </p>
+            
+            <p>
+                After graduating High School in the Summer of 2010 I started my                       career as a System Administrator at my first college Walla Walla                     University for the Computer Science Department. I started a business                 by building websites and computers for people in the local community                 which I still do to this day. I'm planning on completing my BS in                     Computer Science and these are the skills that I have gained over the                 time period of my college experience. 
+            </p>
+        </section>
+        
+        <section id="skills" class="clearfix" itemscope itemtype="http://schema.org/ItemList">
+            <h2 itemprop="name">Skillset</h2>
+            
+            <section id="skills-left">
+                <h4 itemprop="about">Development</h4>
+                    <ul>
+                        <li itemprop="itemListElement">HTML5/CSS3</li>
+                        <li itemprop="itemListElement">JavaScript & jQuery</li>
+                        <li itemprop="itemListElement">PHP Backend</li>
+                        <li itemprop="itemListElement">SQL Databases</li>
+                        <li itemprop="itemListElement">Wordpress</li>
+                        <li itemprop="itemListElement">Java</li>
+                    </ul>
+            </section>        
+
+            <section id"skills-right">
+                <h4 itemprop="about">Software</h4>
+                    <ul>
+                        <li itemprop="itemListElement">Sublime Text 3</li>
+                        <li itemprop="itemListElement">Eclipse</li>
+                        <li itemprop="itemListElement">Adobe Brackets</li>
+                        <li itemprop="itemListElement">Adobe Photoshop</li>
+                        <li itemprop="itemListElement">phpMyAdmin</li>
+                        <li itemprop="itemListElement">MS Office 2007-2010</li>
+                        <li itemprop="itemListElement">LibreOffice</li>
+                        <li itemprop="itemListElement">gimp</li>
+                        <li itemprop="itemListElement">vmWare</li>
+                        <li itemprop="itemListElement">Linux Terminal</li>
+                    </ul>
+            </section>
+            
+            <section id"skills-right">
+                <h4 itemprop="about">Operating Systems</h4>
+                    <ul>
+                        <li itemprop="itemListElement">Ubuntu 9.10-15.04</li>
+                        <li itemprop="itemListElement">Fedora 7-8</li>
+                        <li itemprop="itemListElement">Linux Mint 17-18</li>
+                        <li itemprop="itemListElement">Backtrack 5</li>
+                        <li itemprop="itemListElement">Windows Desktop: XP, Vista,                                                           7, 8, 8.1, 10</li>
+                        <li itemprop="itemListElement">Windows Server: 2008 R2,                                                              2012</li>
+                        <li itemprop="itemListElement">crunchBang</li>
+                        <li itemprop="itemListElement">Knoppix</li>
+                        <li itemprop="itemListElement">Lubuntu</li>
+                        <li itemprop="itemListElement">Xubuntu</li>
+                    </ul>
+            </section>
+            
+            <section id="education">
+                <h2>Past Education</h2>
+                <p>
+                    <span itemprop="alumiOf">
+                        Glendale Adventist Academy
+                    </span>
+                    graduate of 2010.
+                </p>
+            </section>
+            
+            <section id="experience">
+                <h2>Work Experience</h2>
+                <p>Freelance Web Designer/Developer - 2010-2015</p>
+                <p>System Administrator, Walla Walla University - 2010-2011</p>
+            </section>
+            
+            <section id"articles"> <!--Replace with Projects -->
+                <h2>Recent Articles</h2>
+                <p itemscope itemtype="http://schema.org/Article">
+                    <span itemprope="name">
+                        <a href="Web Article 1 from Dev Blog" itemprop="url" title="Agile: Scrum Management">Agile Scrum Management</a></span>
+                    &bull; Published in
+                    <span itemprop="datePublished">
+                        May 2015
+                    </span>
+                </p>
+            </section>
+            
+            
+        </section>
+    </div>
+</body>
 </html>
