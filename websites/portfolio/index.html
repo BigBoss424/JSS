@@ -3,6 +3,7 @@
 <html lang="en">
 
 <head>
+	<script type="text/javascript" src="javascript/ninja-btn.js"></script>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Online Responsive Resume Demo</title>
 	<meta name="author" content="Aaron Jones">
@@ -12,9 +13,15 @@
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Simonetta:400,900|Balthazar">
   	<link rel="stylesheet" type="text/css" href="css/styles.css">
   	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
 </head>
 
 <body>
+
+	<div class="nav">
+		<!-- Eventually put in a menu -->
+	</div>
+
     <div id="w" itemscope itemtype="http://schema.org/Person">
         <header class="clearfix">
             <div id="info">
@@ -46,19 +53,28 @@
         </section>
         
         <section id="skills" class="clearfix" itemscope itemtype="http://schema.org/ItemList">
-            <h2 itemprop="name">Skillset</h2>
+            <h2 itemprop="name"><a href="html/skillset.html">Skillset</a></h2>
             
             <section id="skills-left">
-                <h4 itemprop="about">Development</h4>
+                <h4 itemprop="about">Front-End Development</h4>
                     <ul>
-                        <li itemprop="itemListElement">HTML5/CSS3</li>
-                        <li itemprop="itemListElement">JavaScript & jQuery</li>
-                        <li itemprop="itemListElement">PHP Backend</li>
-                        <li itemprop="itemListElement">SQL Databases</li>
-                        <li itemprop="itemListElement">Wordpress</li>
-                        <li itemprop="itemListElement">Java</li>
+                        <li itemprop="itemListElement">HTML5</li>
+                        <li itemprop="itemListElement">CSS3</li>
+                        <li itemprop="itemListElement">Node.js</li>
+                        <li itemprop="itemListElement">Angular.js</li>
+                        <li itemprop="itemListElement">jQuery</li>
+                        <li itemprop="itemListElement">XHTML</li>
+                        <li itemprop="itemListElement">Polymer</li>
+                        <li itemprop="itemListElement">GWT</li>
+                        <li itemprop="itemListElement">JavaScript</li>
+                        <li itemprop="itemListElement">WebGL</li>
+                        <li itemprop="itemListElement">CoffeeScript</li>
                     </ul>
-            </section>        
+            </section>   
+
+             
+     
+
 
             <section id"skills-right">
                 <h4 itemprop="about">Software</h4>
@@ -73,18 +89,35 @@
                         <li itemprop="itemListElement">gimp</li>
                         <li itemprop="itemListElement">vmWare</li>
                         <li itemprop="itemListElement">Linux Terminal</li>
+                        <li itemprop="itemListElement">Geany</li>
                     </ul>
             </section>
             
-            <section id"skills-right">
+            <section id="skills-left">
+                <h4 itemprop="about">Back-End Development</h4>
+                    <ul>
+                        <li itemprop="itemListElement">PHP</li>
+                        <li itemprop="itemListElement">Ruby</li>
+                        <li itemprop="itemListElement">Ruby on Rails</li>
+                        <li itemprop="itemListElement">MySQL</li>
+                        <li itemprop="itemListElement">Rails</li>
+                        <li itemprop="itemListElement">C++</li>
+                        <li itemprop="itemListElement">C</li>
+                        <li itemprop="itemListElement">Java</li>
+                        <li itemprop="itemListElement">ASP.NET</li>
+                        <li itemprop="itemListElement">Python</li>
+                    </ul>
+            </section> 
+
+            <section id"skills-left">
                 <h4 itemprop="about">Operating Systems</h4>
                     <ul>
                         <li itemprop="itemListElement">Ubuntu 9.10-15.04</li>
                         <li itemprop="itemListElement">Fedora 7-8</li>
                         <li itemprop="itemListElement">Linux Mint 17-18</li>
                         <li itemprop="itemListElement">Backtrack 5</li>
-                        <li itemprop="itemListElement">Windows Desktop: XP, Vista,                                                           7, 8, 8.1, 10</li>
-                        <li itemprop="itemListElement">Windows Server: 2008 R2,                                                              2012</li>
+                        <li itemprop="itemListElement">Windows Desktop: XP, Vista, 7, 8, 8.1, 10</li>
+                        <li itemprop="itemListElement">Windows Server: 2008 R2, 2012</li>
                         <li itemprop="itemListElement">crunchBang</li>
                         <li itemprop="itemListElement">Knoppix</li>
                         <li itemprop="itemListElement">Lubuntu</li>
@@ -92,6 +125,8 @@
                     </ul>
             </section>
             
+            
+
             <section id="education">
                 <h2>Past Education</h2>
                 <p>
