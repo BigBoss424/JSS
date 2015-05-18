@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!--This is a commit-->
+<html lang="en">
+
+<head>
+	<script type="text/javascript" src="javascript/ninja-btn.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Online Responsive Resume Demo</title>
+	<meta name="author" content="Aaron Jones">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Simonetta:400,900|Balthazar">
+  	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+  	<link rel="stylesheet" type="text/css" href="../css/responsive.css">
+  	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://googledrive.com/host/0B1iqZ7_4jtUfRUhpNWx3bEU2dFk" />
+
+  		<style>
+		/* Demo page only */
+
+		#about{
+		    color: #999;
+		    text-align: center;
+		    font: 0.9em Arial, Helvetica;
+		}
+
+		#about a{
+		    color: #777;
+		}		
+		</style>
+</head>
+
+<body>
+
+	<header class="clearfix">
+            <div id="info">
+                <h1><span itemprop="name">Aaron Jones</span></h1>
+                <h3><span itemprop="jobTitle">Freelance Programmer & Backend Web developer</span></h3>
+                <small itemprop="address" itemscope itemType="http://schema.org/PostalAddress">
+                    <span itemprop="addressLocality">Spokane</span>,
+                    <span itemprop="addressRegion">Washington</span>,
+                    <span itemprop="addressCountry">USA</span>
+                </small>
+                <small><span itemprop="email">ajones061392@gmail.com</span></small>
+                <small><a href="https://github.com/bigboss424/" itemprop="url">My Portfolio</a> * <a href="https://twiiter.com/heeroyuy424" itemprop="url">@heeroyuy424</a></small>
+            </div>
+
+            <div id="photo">
+                <img src="../imgs/resize_profilepic.jpg" alt="Aaron Jones' Portfolio Picture" itemprop="image"/>
+            </div>
+    </header>
+
+	<section id="profile">
+		<h2>Definition of Skillset</h2>
+
+		<p>
+			This is a simple paragraph. I firmly believe that to fully master a skill one has to spend at least 20,000 hours before mastering any skill. The same I believe can be applied to programming and development skills. I also believe that to become proficient in one skill it should only take 30 days and 1 hour a week of practice.
+		</p>
+	</section>
+
+	
+            <h2 itemprop="name"><a href="html/skillset.html">Skillset</a></h2>
+            
+            <h4 itemprop="about">Front-End Development</h4>
+            <section id="skills-interactive">
+                
+                   <ul class="menu">
+	    <li tabindex="1">
+	      <span class="title">HTML5</span> 
+	      <div class="content">I have been studying HTML since the fifth grade. I remember writing my first web page and then full on website in high school both junior ansenior year. Then from there further adapted my skills with HTML to keep up with its most current standard HTML5.</div>
+	    </li>
+	    <li tabindex="1">
+	      <span class="title">CSS3</span> 
+	      <div class="content">Though I have recently started to study CSS3. I have been quick to adapt to the rules and standards of the language itself. Not only has it benefitted me greatly when coming to the design of my website but has helped me grasp a better understanding of web development as a whole.</div>
+	    </li>
+	    <li tabindex="1">
+	      <span class="title">Node.js</span> 
+	      <div class="content">I recently just started to pick up the Node framework. Though my work in it is very limited at the moment I am currently working on various side projects that work on implementing the framework into numerous blogs and websites over the course of my development history. </div>
+	    </li>
+	    <li tabindex="1">
+	      <span class="title">Angular.js</span> 
+	      <div class="content">Though I am recently new to the concept of Angular I have been getting some great practice in integrating this JavaScript Framework in my web development process. I plan on doing more future projects with this framework to test out what it can do from the ground up.</div>
+	    </li>
+	    <li tabindex="1">
+	      <span class="title">jQuery</span> 
+	      <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dictum scelerisque. Morbi eu euismod lorem.</div>
+	    </li>
+	    <li tabindex="1">
+	      <span class="title">XHTML</span> 
+	      <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dictum scelerisque. Morbi eu euismod lorem.</div>
+	    </li>
+	    <li tabindex="1"> 
+	      <span class="title">Polymer</span>
+	      <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dictum scelerisque. Morbi eu euismod lorem.</div>
+	    </li>
+	    <li tabindex="1"> 
+	      <span class="title">GWT</span>
+	      <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dictum scelerisque. Morbi eu euismod lorem.</div>
+	    </li>
+	    <li tabindex="1"> 
+	      <span class="title">JavaScript</span>
+	      <div class="content">JavaScript in my honest opinion is one of the few things hold everything on the web together. Though I am diving into JavaScript for the first time seriously I have been enjoying it's simplistic ways of implementing and extracting data from websites. I will be posting more of my works that heavily rely upon JavaScript in the near future.</div>
+	    </li>     
+	  </ul>
+  
+  	 <h4 itemprop="about">Back-End Development</h4>
+
+  	 <section id="skills-interactive">
+                
+       <ul class="menu">
+	    <li tabindex="1">
+	      <span class="title">PHP</span> 
+	      <div class="content">I have been studying HTML since the fifth grade. I remember writing my first web page and then full on website in high school both junior and senion year. Then from there further adapted my skills with HTML to keep up with its most current standard HTML5.</div>
+	    </li>
+	    <li tabindex="1">
+	      <span class="title">Ruby</span> 
+	      <div class="content">Though I have recently started to study CSS3. I have been quick to adapt to the rules and standards of the language itself. Not only has it benefitted me greatly when coming to the design of my website but has helped me grasp a better understanding of web development as a whole.</div>
+	    </li>
+	    <li tabindex="1">
+	      <span class="title">Ruby on Rails</span> 
+	      <div class="content">I am currently starting to learn Ruby on Rails for certain web development projects. I have somewhat grown attached to Ruby on Rails as implementing multiple frameworks within a project has been made easy as a result of the development behind Ruby and Rails.</div>
+	    </li>
+	    <li tabindex="1">
+	      <span class="title">MySQL</span> 
+	      <div class="content">This database is and my main preferred choice when it comes to implementing a database into my code. Whether it be a simple Java servlet application or CRUD applications. I enjoy the way implementing this database is so simple when integrating it into a site. I plan on expanding my knowledge further through learning various different databases along the way.</div>
+	    </li>
+	    <li tabindex="1">
+	      <span class="title">Rails</span> 
+	      <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dictum scelerisque. Morbi eu euismod lorem.</div>
+	    </li>
+	    <li tabindex="1">
+	      <span class="title">C++</span> 
+	      <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dictum scelerisque. Morbi eu euismod lorem.</div>
+	    </li>
+	    <li tabindex="1"> 
+	      <span class="title">C</span>
+	      <div class="content">This programming langauge is my first Programming language that I started programming in. Creating my first Hello World application in High School made me quite fascinated with the process of creating applications that everyone could use. </div>
+	    </li>
+	    <li tabindex="1"> 
+	      <span class="title">Java</span>
+	      <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dictum scelerisque. Morbi eu euismod lorem.</div>
+	    </li>
+	    <li tabindex="1"> 
+	      <span class="title">Python</span>
+	      <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dictum scelerisque. Morbi eu euismod lorem.</div>
+	    </li>     
+	  </ul>
+
+	<script src="https://googledrive.com/host/0B1iqZ7_4jtUfbjcxRUdNczBzaGs" type='text/javascript'></script>
+    </section>   
+</body>
