@@ -1,0 +1,3 @@
+/home/bigboss424/Documents/JSS/MonoDevelop/Examples/MonoProject1/MonoProject1/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/bigboss424/Documents/JSS/MonoDevelop/Examples/MonoProject1/MonoProject1/bin/Microsoft.Web.Infrastructure.dll
+/home/bigboss424/Documents/JSS/MonoDevelop/Examples/MonoProject1/MonoProject1/bin/System.Web.Razor.dll
